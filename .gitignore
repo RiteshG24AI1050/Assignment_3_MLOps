@@ -1,5 +1,4 @@
-# Assignment_3_MLOps .gitignore
-
+# Assignment_3_MLOps .gitignore file
 __pycache__/
 *.py[cod]
 *$py.class
