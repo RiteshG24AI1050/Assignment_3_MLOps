@@ -29,8 +29,8 @@ jobs:
     - name: Verify model files exist
       run: |
         ls -la models/
-        test -f models/20250723_152002_linear_model.joblib
-        test -f models/20250723_152002_test_data.joblib
+        test -f models/linear_model.joblib
+        test -f models/test_data.joblib
 
     - name: Build the Docker image
       run: |
