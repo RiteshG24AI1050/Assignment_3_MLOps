@@ -2,7 +2,7 @@ name: MLOps CI/CD Pipeline
 
 on:
   push:
-    branches: docker_ci
+    branches: docker-ci
 
 jobs:
   build_and_test_container:
